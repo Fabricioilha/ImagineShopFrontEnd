@@ -1,5 +1,5 @@
 import Image, { StaticImageData } from "next/image"
-import * as C from "./bannerCSS"
+import * as C from './bannerCss'
 
 interface bannerProps {
     image:StaticImageData,
