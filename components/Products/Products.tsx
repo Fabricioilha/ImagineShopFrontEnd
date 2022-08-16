@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { IProduct } from "../../types/types";
 import * as C from './productCss'
-import { Iproduct } from "../../types/types";
 
 
-const Products = ({data}:{data: Iproduct[]}) => {
+const Products = ({data}:{data: IProduct[]}) => {
   return (
     <C.ProductContainer>
       <C.Title>
