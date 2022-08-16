@@ -2,6 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+  compiler:{
+    styledComponents: true,
+  },
+  images:{
+    domains:["https://backendimagineshop.herokuapp.com/","backendimagineshop.herokuapp.com"]
+  }
 }
 
 module.exports = nextConfig
